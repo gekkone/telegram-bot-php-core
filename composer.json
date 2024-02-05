@@ -1,5 +1,5 @@
 {
-   "name": "telegram-bot-php/core",
+   "name": "gekkone/telegram-bot-php-core",
    "description": "A PHP library that makes using Telegram Bot API much easier.",
    "keywords": [
       "php",
@@ -10,19 +10,24 @@
       "core"
    ],
    "license": "MIT",
-   "homepage": "https://github.com/telegram-bot-php/core",
+   "homepage": "https://github.com/gekkone/telegram-bot-php-core",
    "support": {
-      "issues": "https://github.com/telegram-bot-php/core/issues",
-      "source": "https://github.com/telegram-bot-php/core"
+      "issues": "https://github.com/gekkone/telegram-bot-php-core/issues",
+      "source": "https://github.com/gekkone/telegram-bot-php-core"
    },
    "authors": [
       {
          "name": "Shahrad Elahi",
-         "email": "shahrad@litehex.com"
+         "email": "shahrad@litehex.com",
+         "homepage": "https://github.com/telegram-bot-php/core"
       },
       {
          "name": "LiteHex",
          "email": "opensource@litehex.com"
+      },
+      {
+         "name": "Gekkone",
+         "email": "dev@gekkone.tech"
       }
    ],
    "minimum-stability": "dev",
@@ -57,5 +62,8 @@
    "config": {
       "sort-packages": true,
       "optimize-autoloader": true
+   },
+   "replace": {
+      "telegram-bot-php/core": "self.version"
    }
 }
